@@ -1,0 +1,1 @@
+(function(){try{if(localStorage.getItem('ttm_ck'))return;}catch(e){}var b=document.getElementById('ck');if(!b)return;b.hidden=false;document.getElementById('ckOk').onclick=function(){try{localStorage.setItem('ttm_ck','1');}catch(e){}b.remove();};})();

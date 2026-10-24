@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="UTF-8">
+<style>
+@font-face{font-family:'Unbounded';font-weight:700;src:url('fonts/unbounded-700.ttf');}
+@font-face{font-family:'Unbounded';font-weight:900;src:url('fonts/unbounded-900.ttf');}
+@font-face{font-family:'Nunito';font-weight:700;src:url('fonts/nunito-700.ttf');}
+@font-face{font-family:'Nunito';font-weight:800;src:url('fonts/nunito-800.ttf');}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#0B0F1C;}
+.pin{width:1280px;height:720px;background:#0B0F1C;color:#fff;position:relative;overflow:hidden;display:flex;align-items:center;font-family:'Nunito',sans-serif;}
+.glow{position:absolute;border-radius:50%;filter:blur(120px);opacity:.35;}
+.glow.r{width:640px;height:640px;background:#FE2C55;top:-180px;left:-140px;}
+.glow.c{width:560px;height:560px;background:#25F4EE;bottom:-160px;right:-120px;opacity:.22;}
+.txt{z-index:2;padding-left:90px;max-width:760px;}
+.kicker{font-family:'Unbounded';font-size:28px;font-weight:700;color:#25F4EE;letter-spacing:2px;margin-bottom:24px;}
+h1{font-family:'Unbounded';font-weight:900;font-size:76px;line-height:1.12;}
+h1 .red{color:#FE2C55;}
+.desc{margin-top:26px;font-size:36px;font-weight:700;color:#c9d2e8;line-height:1.4;}
+.desc b{color:#fff;}
+.cta{margin-top:34px;display:inline-block;font-family:'Unbounded';font-weight:700;font-size:34px;background:linear-gradient(135deg,#FE2C55,#ff5c7a);color:#fff;padding:20px 64px;border-radius:100px;box-shadow:0 10px 34px rgba(254,44,85,.5);}
+.checks{z-index:2;margin-left:auto;margin-right:80px;display:flex;flex-direction:column;gap:20px;flex-shrink:0;}
+.check{display:flex;align-items:center;gap:16px;font-size:32px;font-weight:700;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:18px 26px;}
+.tick{width:52px;height:52px;border-radius:50%;background:rgba(37,244,238,.14);border:2px solid #25F4EE;color:#25F4EE;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:900;flex-shrink:0;}
+</style></head>
+<body><div class="pin">
+<div class="glow r"></div><div class="glow c"></div>
+<div class="txt">
+<div class="kicker">ДЗЕН • ИНСТРУКЦИЯ</div>
+<h1>Тик Ток <span class="red">Мод</span> 47.1.7</h1>
+<div class="desc">Что нового и как установить за <b>2 минуты</b>. Работает в России <b>без VPN</b>.</div>
+<div class="cta">Читать статью</div>
+</div>
+<div class="checks">
+<div class="check"><div class="tick">✓</div>Без VPN</div>
+<div class="check"><div class="tick">✓</div>Серийчик вернулся</div>
+<div class="check"><div class="tick">✓</div>Без рекламы</div>
+</div>
+</div></body></html>

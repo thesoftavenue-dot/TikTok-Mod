@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="UTF-8">
+<style>
+@font-face{font-family:'Unbounded';font-weight:700;src:url('fonts/unbounded-700.ttf');}
+@font-face{font-family:'Unbounded';font-weight:900;src:url('fonts/unbounded-900.ttf');}
+@font-face{font-family:'Nunito';font-weight:800;src:url('fonts/nunito-800.ttf');}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#0B0F1C;}
+.pin{width:1280px;height:720px;background:#0B0F1C;color:#fff;position:relative;overflow:hidden;display:flex;align-items:center;font-family:'Nunito',sans-serif;}
+.glow{position:absolute;border-radius:50%;filter:blur(120px);opacity:.4;}
+.glow.r{width:700px;height:700px;background:#FE2C55;top:-200px;right:-150px;}
+.glow.c{width:500px;height:500px;background:#25F4EE;bottom:-180px;left:-120px;opacity:.22;}
+.txt{z-index:2;padding-left:90px;}
+.badge{display:inline-block;font-family:'Unbounded';font-size:30px;font-weight:700;color:#0B0F1C;background:#25F4EE;border-radius:12px;padding:10px 28px;margin-bottom:28px;}
+h1{font-family:'Unbounded';font-weight:900;font-size:104px;line-height:1.05;}
+h1 .red{color:#FE2C55;}
+.ver{font-family:'Unbounded';font-weight:900;font-size:150px;color:#FE2C55;line-height:1;margin-top:6px;text-shadow:0 0 60px rgba(254,44,85,.6);}
+.sub2{margin-top:26px;font-size:44px;font-weight:800;color:#fff;}
+.sub2 b{color:#25F4EE;}
+.phone{z-index:2;margin-left:auto;margin-right:90px;width:300px;height:520px;background:#141a2e;border-radius:46px;border:6px solid #2a3352;position:relative;box-shadow:0 0 70px rgba(254,44,85,.4);overflow:hidden;flex-shrink:0;transform:rotate(6deg);}
+.notch{position:absolute;top:12px;left:50%;transform:translateX(-50%);width:120px;height:24px;background:#0B0F1C;border-radius:20px;}
+.screen{padding:56px 20px 16px;}
+.vid{border-radius:14px;height:110px;margin-bottom:12px;position:relative;overflow:hidden;}
+.vid::after{content:'▶';position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:34px;color:rgba(255,255,255,.85);}
+.vid.v1{background:linear-gradient(135deg,#FE2C55,#7a1030);}
+.vid.v2{background:linear-gradient(135deg,#25F4EE,#0e6f6b);}
+.vid.v3{background:linear-gradient(135deg,#3b2a6e,#FE2C55);}
+</style></head>
+<body><div class="pin">
+<div class="glow r"></div><div class="glow c"></div>
+<div class="txt">
+<div class="badge">БЕЗ VPN 🔥</div>
+<h1>Тик Ток <span class="red">Мод</span></h1>
+<div class="ver">47.1.7</div>
+<div class="sub2">Установка за <b>2 минуты</b></div>
+</div>
+<div class="phone"><div class="notch"></div><div class="screen">
+<div class="vid v1"></div><div class="vid v2"></div><div class="vid v3"></div>
+</div></div>
+</div></body></html>
